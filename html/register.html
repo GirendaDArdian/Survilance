@@ -21,22 +21,57 @@
 
     <!-- container for wrap the content or table -->
     <div class="container">
-        <h3 id="label-login">Login</h3>
+        <form action="">
         <table>
+            <h3 id="label-register">Register</h3>
         <tr>
+            <td><label class="form-class" for="fullname">Full Name</label><br>
+                <input class="input-class" type="text">
+            </td>
             <td>
-                <input type="text" placeholder="Full Name" required class="form-input-1">
-            <td>
-                <input type="text" placeholder="Username" required class="form-input-2">
+                <label class="form-class" for="username">Username</label><br>
+                <input class="input-class" type="text"><br>
             </td>
         </tr>
         <tr>
-            <td><input type="password" placeholder="Password" required class="form-input-1"></td>
+            <td>
+                <label class="form-class" for="password">Password</label><br>
+                <input class="input-class" type="password"><br>
+            </td>
+            <td>
+                <label class="form-class" for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </td>
         </tr>
         <tr>
-            <td><button><a href="">Login</a></button></td>
+            <td>
+                <label class="form-class" for="phone">Phone Number</label><br>
+                <input class="input-class" type="number"><br>
+            </td>
+            <td>
+                <label class="form-class" for="age">Age</label><br>
+                <input class="input-class" type="number"><br>
+            </td>
+            <td>
+                <label class="form-class" for="username">Birth Date</label><br>
+                <input class="input-class" type="date"><br>
+            </td>
         </tr>
-            <td><p>Don’t have an account? <u><a id="no-acc"href="">Register</a></u></p></td>
+        <!-- Address -->
+        <!-- <tr>
+            <td>
+                <label class="form-class" for="username">Address</label><br>
+                <input class="input-class" type="text"><br>
+            </td>
+        </tr> -->
+        </form>
+        </table>
+        <table>
+            <a href="/pages/update-profile.html"><button class="register" ><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Register</button></a>
+            <div class="div-have-acc">
+                <p class="have-acc" >Already have an account?</p><a class="login-click" href="/html/login.html">Login</a>
+            </div>
         <tr class="login-method">
             <td>
                 <a href="#"><img class="method" src="/asset/facebook-circle.png" alt="logo-fb" style="margin-left: 0px;"></a>

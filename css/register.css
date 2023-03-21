@@ -27,7 +27,7 @@ body{
 }
 
 
-#label-login{
+#label-register{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -35,50 +35,65 @@ body{
     justify-content: center;
     align-items: center;
     width: 900px;
-    height: 150px;
+    height: 10px;
     padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.have-acc{
+    display: inline;
 }
 
 form{
     padding-top: -30px;
 }
-
-.btn-primary{
-    align-items: center;
+.login-click{
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: bold;
 }
 
-.form-input-1{
-    margin-left: 35px;
+.form-class {
+    color: #222;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.input-class {
+    color: #222;
+    background-color: #93DEFF;
+    border-style: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    padding-left: 5px;
+    border: solid 1px black;
+    margin-left: 30px;
+}
+
+
+.h3-register {
+    margin-left: 510px;
     margin-top: 30px;
-    border: solid 1.5px black;
-    border-radius: 20px;
-    background-color: #93DEFF !important;
-    height: 50px;
-    width: 300px;
-}
-
-.form-input-2{
-    margin-top: 30px;
-    border: solid 1.5px black;
-    border-radius: 20px;
-    background-color: #93DEFF !important;
-    height: 50px;
-    width: 300px;
-}
-
-.form-input::placeholder{
-    text-align: center;
-    font-family: 'Inter', sans-serif;
 }
 
 button{
-    margin-left: 35px;
     margin-top: 30px;
     border: solid 1.5px black;
     border-radius: 20px;
     background-color: #1A1A1A !important;
     height: 50px;
     width: 500px;
+}
+
+.register {
+    border-style: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Inter',
+        sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 180px;
 }
 
 a{
