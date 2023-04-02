@@ -1,0 +1,69 @@
+/* Import font */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');/*  */
+
+  /* CSS Start */
+body{
+    background-color: #1A1A1A;
+}
+#logo{
+    margin-top: 40px;
+}
+input[type=search] {
+    box-sizing: border-box;
+    background-color: #1A1A1A;
+    background-image: url('/asset/Search.png');
+    background-position: 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 40px 12px 40px;
+    width: 500px;
+    margin-left: 150px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    height: 50px;
+}
+
+input[type=search]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #616571;
+  opacity: 1; /* Firefox */
+}
+
+nav{
+    display: inline;    
+}
+.form-control.me-2{
+    margin-left: 400px;
+    margin-top: -70px;
+}
+
+.icon{
+    margin-left: 100px;
+    margin-top: -60px;
+
+}
+
+.bag{
+    margin-left: 70px;
+}
+
+.user{
+    margin-left: 70px;
+}
+.item{
+    color: white;
+}
+
+.carousel-section-1{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #93DEFF;
+}
+
+.recommend{
+    color: #F7F7F7;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+}
+

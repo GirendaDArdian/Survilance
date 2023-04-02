@@ -14,29 +14,31 @@ body{
 }
 
 #img-logo{
-    height: 100px;
-    width: 365px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 83px;
+    width: 280px;
 }
 
 .container{
-    margin-top: 100px;
+    margin-top: 10px;
     background-color: #93DEFF;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 30px;
 }
 
 
 #label-login{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 150px;
-    padding-top: 100px;
+    width: 500px;
+    height: 75px;
+    padding-top: 50px;
 }
 
 form{
@@ -48,13 +50,13 @@ form{
 }
 
 .form-input{
-    margin-left: 35px;
+    margin-left: 45px;
     margin-top: 30px;
     border: solid 1.5px black;
     border-radius: 20px;
     background-color: #93DEFF !important;
-    height: 50px;
-    width: 500px;
+    height: 40px;
+    width: 380px;
 }
 
 .form-input::placeholder{
@@ -63,13 +65,14 @@ form{
 }
 
 button{
-    margin-left: 35px;
+    margin-left: 45px;
     margin-top: 30px;
     border: solid 1.5px black;
     border-radius: 20px;
     background-color: #1A1A1A !important;
-    height: 50px;
-    width: 500px;
+    height: 40px;
+    width: 380px;
+    color: #F7F7F7;
 }
 
 a{
@@ -80,11 +83,12 @@ a{
 p{
     margin-top: 20px;
     color: #1A1A1A;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin-left: 45px;
 }
 
 #no-acc{
@@ -103,12 +107,19 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 45px;
 }
 .method {
     margin-left: 20px;
 }
 
+input[type=text] { 
+    text-align:center;
+}
 
+input[type=password] { 
+    text-align:center;
+}
 
 
 

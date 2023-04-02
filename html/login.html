@@ -16,14 +16,16 @@
 <body>
     <!-- Header for logo -->
     <header>
-        <img src="/asset/JUSTNAME.png" alt="logo-survilance" id="img-logo">
+        <a href="/html/landingpage.html"><img src="/asset/JUSTNAME.png" alt="logo-survilance" id="img-logo"></a>
     </header>
 
     <!-- container for wrap the content or table -->
     <div class="container">
         <h3 id="label-login">Login</h3>
-        <table>
-        <tr>
+        <form action="/html/homepage.html">
+
+            <table>
+                <tr>
             <td>
                 <input type="text" placeholder="Username" required class="form-input">
             </td>
@@ -32,7 +34,7 @@
             <td><input type="password" placeholder="Password" required class="form-input"></td>
         </tr>
         <tr>
-            <td><button><a href="">Login</a></button></td>
+            <td><button type="submit" value="submit">Login</button></td>
         </tr>
             <td><p>Don’t have an account? <u><a id="no-acc"href="/html/register.html">Register</a></u></p></td>
         <tr class="login-method">
@@ -56,6 +58,7 @@
         </tr>
         </table>
     </div>
+        </form>
 
 </body>
 </html>

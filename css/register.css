@@ -14,48 +14,50 @@ body{
 }
 
 #img-logo{
-    height: 100px;
-    width: 365px;
+    margin-left: 10px;
+    height: 83px;
+    width: 280px;
 }
 
 .container{
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: #93DEFF;
-    width: 900px;
-    height: 600px;
+    width: 700px;
+    height: 530px;
     border-radius: 30px;
 }
 
 
 #label-register{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
+    width: 700px;
     height: 10px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
 .have-acc{
     display: inline;
+    margin-left: 210px;
 }
 
 form{
     padding-top: -30px;
 }
 .login-click{
-    text-decoration: none;
-    color: #eeeeee;
+    text-decoration: underline;
+    color: #1A1A1A;
     font-weight: bold;
 }
 
 .form-class {
     color: #222;
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 30px;
 }
 
@@ -64,7 +66,7 @@ form{
     background-color: #93DEFF;
     border-style: none;
     border-radius: 10px;
-    height: 40px;
+    height: 30px;
     width: 250px;
     padding-left: 5px;
     border: solid 1px black;
@@ -78,33 +80,34 @@ form{
 }
 
 button{
-    margin-top: 30px;
+    margin-top: 20px;
     border: solid 1.5px black;
     border-radius: 20px;
     background-color: #1A1A1A !important;
-    height: 50px;
-    width: 500px;
+    height: 40px;
+    width: 300px;
 }
 
 .register {
     border-style: none;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Inter',
         sans-serif;
     color: rgb(255, 255, 255);
     margin-left: 180px;
+    margin-bottom: 20px;
 }
 
 a{
     text-decoration: none;
-    color: #F7F7F7;
+    color: #eeeeee;
 }
 
 p{
     margin-top: 20px;
     color: #1A1A1A;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
@@ -115,15 +118,15 @@ p{
     margin-left: 3px;
     text-decoration: none;
     color: #1A1A1A;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.login-method{
-    margin-top: 20px;
+.register-method{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +135,18 @@ p{
     margin-left: 20px;
 }
 
-
+.gender{
+    margin-left: 30px;
+}
+.table-1{
+    margin-left: 45px;
+}
+.table-2{
+    margin-left: 210px;
+}
+.label-gender{
+    font-size: 14px;
+}
 
 
 
