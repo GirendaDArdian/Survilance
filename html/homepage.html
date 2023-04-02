@@ -16,6 +16,7 @@
   </head>
   <body>
     <!-- Header -->
+    <header>
       <nav>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -43,15 +44,17 @@
             </div>
           </form>
         </div>
+      </div>
       </nav>
-    </div>
+      </header>
     <hr style="border: 1px solid #93DEFF;">
-    
+
     <!-- Article -->
     <article>
       <h3 class="recommend">Recommended for you</h3>
+      <!-- Section 1 - Category -->
       <section class="carousel-section-1">
-      <div class="owl-carousel owl-theme">
+      <div class="owl-one owl-carousel owl-theme">
         <div class="item">
           <div class="card">
             <img src="/asset/homepage-asset/logo-design.png" alt="" class="card-top-1">
@@ -79,35 +82,110 @@
         </div>
       </div>
       </section>
-      <section>
-        <div class="owl-carousel owl-theme">
+      <!-- Owl Section 2 - Frelancer -->
+      <section class="carousel-section-2">
+        <div class="owl-two owl-carousel owl-theme">
         <div class="item">
           <div class="card">
-            <p class="freelancer-name">Mas Kun</p>
-            <img src="/asset/homepage-asset/logo-design.png" alt="" class="card-top-1">
+          <!-- freelancer profile 1 -->
+          <div class="items-profile">
+            <a href="/html/profile/profile.html">
+              <img src="/asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
+              <p class="freelancer-name">Mas Kun</p>
+            </div>  
+          </a>
+          <a href="#">
+              <img src="/asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+            </a>
           </div>
-        </div>
+          <!-- Freelance project 1 -->
+            <a href="#"> 
+              <img src="/asset/homepage-asset/penyanyi-nikahan.png" alt="wedding photo" class="img-freelance">
+            </a>
+            <p class="title-project">Wedding Photography</p>
+            <a href="#">
+              <img src="/asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+            </a>
+            <a href="#">
+              <img src="/asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+            </a>
+          </div>
         <div class="item">
           <div class="card">
-            <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="img-2">
+          <!-- freelancer profile 2 -->
+          <div class="items-profile">
+            <a href="/html/profile/profile.html">
+              <img src="/asset/homepage-asset/masboy.png" alt="maskun" class="fp-freelance">
+              <p class="freelancer-name">Mas Boy</p>
+            </div>  
+          </a>
+            <a href="#">
+              <img src="/asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+            </a>
           </div>
-        </div>
+          <!-- Freelance project 2 -->
+            <a href="#"> 
+              <img src="/asset/homepage-asset/year-book-design.png" alt="yb-desgin" class="img-freelance">
+            </a>
+            <p class="title-project">Wedding Photography</p>
+            <a href="#">
+              <img src="/asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+            </a>
+            <a href="#">
+              <img src="/asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+            </a>
+          </div>
         <div class="item">
           <div class="card">
-            <img src="/asset/homepage-asset/flyer-design.png" alt="" class="img-3">
+          <!-- freelancer profile 3-->
+          <div class="items-profile">
+            <a href="/html/profile/profile.html">
+              <img src="/asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
+              <p class="freelancer-name">Mas Kun</p>
+            </div>  
+          </a>
+          <a href="#">
+              <img src="/asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+            </a>
           </div>
-        </div>
-        <div class="item">
+          <!-- Freelance project 3-->
+            <a href="#"> 
+              <img src="/asset/homepage-asset/street-photo.png" alt="street-photo" class="img-freelance">
+            </a>
+            <p class="title-project">Street Photography</p>
+            <a href="#">
+              <img src="/asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+            </a>
+            <a href="#">
+              <img src="/asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+            </a>
+          </div>
+           <div class="item">
           <div class="card">
-            <img src="/asset/homepage-asset/music-promotion.png" alt="" class="img-4">
+          <!-- freelancer profile 4-->
+          <div class="items-profile">
+            <a href="/html/profile/profile.html">
+              <img src="/asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
+              <p class="freelancer-name">Mas Kun</p>
+            </div>  
+          </a>
+          <a href="#">
+              <img src="/asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+            </a>
           </div>
-        </div>
-        <div class="item">
-          <div class="card">
-            <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="img-1">
+          <!-- Freelance project 4-->
+            <a href="#"> 
+              <img src="/asset/homepage-asset/model-photo.png" alt="" class="img-freelance">
+            </a>
+            <p class="title-project">Model Photography</p>
+            <a href="#">
+              <img src="/asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+            </a>
+            <a href="#">
+              <img src="/asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+            </a>
           </div>
-        </div>
-      </div>
+          
       </section>
     </article>
 
@@ -125,25 +203,47 @@
     <!-- JQuery.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-    <!-- Owl Carousel.js -->
+    <!-- Owl Carousel.js Section 1 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+  $(".owl-one").owlCarousel();
 });
-$('.owl-carousel').owlCarousel({
+$('.owl-one').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:3
         },
         600:{
             items:4
         },
         1000:{
             items:7
+        }
+    }
+})
+    </script>
+  <!-- Owl Carousel.js - Section 2 -->
+    <script>
+      $(document).ready(function(){
+  $(".owl-two").owlCarousel();
+});
+$('.owl-two').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:4
         }
     }
 })
