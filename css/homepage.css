@@ -86,7 +86,7 @@ header{
 }
 .freelancer-name{
     color: #F7F7F7;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: -27px;
     text-decoration: none;
 }
@@ -97,6 +97,7 @@ header{
 }
 .title-project{
     margin-top: 3px;
+    margin-left: -150px;
 }
 .to-project{
     width: 24px !important;
@@ -163,9 +164,9 @@ header{
   right: -35px;
 }
 .owl-theme .owl-nav [class*=owl-] {
-  color: #ffffff;
+  color: #93DEFF;
   font-size: 39px;
-  background: #000000;
+  background: #1A1A1A;
   border-radius: 3px;
 }
 .owl-carousel .prev-carousel:hover {
