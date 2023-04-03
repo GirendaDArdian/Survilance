@@ -53,35 +53,86 @@
     <article>
       <h3 class="label">Recommended for you</h3>
       <!-- Section 1 - Category -->
+
       <section class="carousel-section-1">
-      <div class="owl-one owl-carousel owl-theme">
-        <div class="item">
-          <div class="card">
-            <img src="/asset/homepage-asset/logo-design.png" alt="" class="card-top-1">
+        <!-- <button type="button" class="owl-prev owl-carousel role="presentation"></button> -->
+        <div class="carousel-wrapper">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card">
+                    <img src="/asset/homepage-asset/logo-design.png" alt="" class="card-top-1">
+              </div>
+            </div>
+                <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="card-top-1">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/flyer-design.png" alt="" class="img-2">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/music-promotion.png" alt="" class="img-3">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/flyer-design-2.png" alt="" class="img-4">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="img-1">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/book-design.png" />
+              </div>      
+            </div>
+            <div class="item">
+              <div class="card">
+                    <img src="/asset/homepage-asset/logo-design.png" alt="" class="card-top-1">
+              </div>
+            </div>
+                <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="card-top-1">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/flyer-design.png" alt="" class="img-2">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/music-promotion.png" alt="" class="img-3">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/flyer-design-2.png" alt="" class="img-4">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="img-1">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img src="/asset/homepage-asset/book-design.png" />
+              </div>      
+            </div>
+            
           </div>
         </div>
-        <div class="item">
-          <div class="card">
-            <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="img-2">
-          </div>
-        </div>
-        <div class="item">
-          <div class="card">
-            <img src="/asset/homepage-asset/flyer-design.png" alt="" class="img-3">
-          </div>
-        </div>
-        <div class="item">
-          <div class="card">
-            <img src="/asset/homepage-asset/music-promotion.png" alt="" class="img-4">
-          </div>
-        </div>
-        <div class="item">
-          <div class="card">
-            <img src="/asset/homepage-asset/motion-graphic.png" alt="" class="img-1">
-          </div>
-        </div>
-      </div>
       </section>
+    </div>
       <!-- end of section -->
 
       <h3 class="label">Sugested for you</h3>
@@ -190,7 +241,11 @@
           </div>
           
       </section>
+
+      
+
     </article>
+    
 
     <!-- JS Section -->
 
@@ -251,6 +306,26 @@ $('.owl-two').owlCarousel({
     }
 })
     </script>
+
+    <!-- Next and prev button -->
+      <script>
+    $('.owl-carousel').owlCarousel({
+      margin: 15,
+      nav: true,
+      navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+      responsive: {
+        0: {
+          items: 3
+        },
+        600: {
+          items: 4
+        },
+        1000: {
+          items: 7
+        }
+      }
+    });
+  </script>
   </body>
   
 </html>
