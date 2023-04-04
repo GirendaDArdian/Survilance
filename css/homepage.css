@@ -45,13 +45,21 @@ header{
     margin-top: -60px;
 
 }
-
+.fa-bag-shopping:hover{
+    color:#93DEFF !important;
+}
 .bag{
     margin-left: 70px;
+}
+.fa-envelope:hover{
+    color: #93DEFF !important;
 }
 
 .user{
     margin-left: 70px;
+}
+.fa-user:hover{
+    color:#93DEFF !important;
 }
 .item{
     color: white;
@@ -176,4 +184,22 @@ header{
   background-position: -24px -53px;
 }
 
+/* Footer */
+.footer{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.kiri{
 
+}
+.tengah-kiri{
+
+}
+.tengah-kanan{
+
+}
+.kanan{
+
+}
