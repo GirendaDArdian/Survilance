@@ -18,34 +18,32 @@
   <body>
     <!-- Header -->
     <header>
-      <nav>
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="../html/homepage.html">
-            <img
-            src="../asset/JUSTNAME.png"
-            alt="logo"
-            height="83px" 
-            width="280px" 
-            id="logo"
-          />
-        </a>
-        <form class="d-flex justify-content-center" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-            />
-            <div class="icon">
-              <h5>
-                <a class="message" href="../html/chat/chatpage.html"><i class="fa-solid fa-envelope fa-lg" style="color: #f4f4f4;"></i></a>
-                <a class="bag" href="../html/checkout/checkout.html"><i class="fa-solid fa-bag-shopping fa-lg" style="color: #f4f4f4;"></i></a>
-                <a class="user" href="../html/profile/profile.html"><i class="fa-solid fa-user fa-lg" style="color: #f4f4f4;"></i></a>
-              </h5>
-            </div>
+            <img src="../asset/JUSTNAME.png" alt="logo" id="logo"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex justify-content-center" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="message" href="../html/chat/chatpage.html"><i class="fa-solid fa-envelope fa-2x" style="color: #f4f4f4;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="bag" href="../html/checkout/checkout.html"><i class="fa-solid fa-bag-shopping fa-2x" style="color: #f4f4f4;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="user" href="../html/profile/profile.html"><i class="fa-solid fa-user fa-2x" style="color: #f4f4f4;"></i></a>
+              </li>
+            </ul>
+            
+          </div>
         </div>
-      </div>
       </nav>
       </header>
     <hr style="border: 1px solid #93DEFF;">
@@ -58,7 +56,7 @@
       <section class="carousel-section-1">
         <!-- <button type="button" class="owl-prev owl-carousel role="presentation"></button> -->
         <div class="carousel-wrapper">
-          <div class="owl-carousel owl-theme">
+          <div class="owl-one owl-carousel owl-theme">
             <div class="item">
               <div class="card">
                     <a href="">
@@ -66,7 +64,7 @@
                       </a>
               </div>
             </div>
-                <div class="item">
+            <div class="item">
               <div class="card">
                 <a href="">
                   <img src="../asset/homepage-asset/motion-graphic.png" alt="" class="card-top-1">
@@ -115,7 +113,7 @@
                 </a>
               </div>
             </div>
-                <div class="item">
+            <div class="item">
               <div class="card">
                 <a href="">
                   <img src="../asset/homepage-asset/motion-graphic.png" alt="" class="card-top-1">
@@ -160,113 +158,118 @@
             
           </div>
         </div>
-      </section>
-    </div>
-      <!-- end of section -->
+        <div class="btns">
+          <div class="customNextBtn"><i class="fa-solid fa-chevron-right" style="color: #93DEFF;"></i></div>
+          <div class="customPreviousBtn"><i class="fa-solid fa-chevron-left" style="color: #93DEFF;"></i></div>
+        </div>
+      </section> <!-- end of section -->
 
-      <h3 class="label">Sugested for you</h3>
       <!-- Owl Section 2 - Frelancer -->
+      <br>
       <section class="carousel-section-2">
-        <div class="owl-two owl-carousel owl-theme">
-        <div class="item">
-          <div class="card">
-          <!-- freelancer profile 1 -->
-          <div class="items-profile">
-            <a href="../html/profile/profile.html">
-              <img src="../asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
-              <p class="freelancer-name">Mas Kun</p>
-            </div>  
-          </a>
-          <a href="#">
-              <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+        <p class="label-2">Sugested for you</p>
+        <div class="carousel-wrapper">
+          <div class="owl-two owl-carousel owl-theme">
+            <div class="item-2">
+              <div class="card">
+                <!-- freelancer profile 1 -->
+                <div class="items-profile">
+                <a href="../html/profile/profile.html">
+                  <img src="../asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
+                  <p class="freelancer-name">Mas Kun</p>
+                </a>
+              </div>  
+              <a href="#">
+                  <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+                </a>
+              </div>
+              <!-- Freelance project 1 -->
+                <a href="#"> 
+                  <img src="../asset/homepage-asset/penyanyi-nikahan.png" alt="wedding photo" class="img-freelance">
+                </a>
+                <p class="title-project-1">Wedding Photography</p>
+                <a href="#">
+                  <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+                </a>
+                <a href="#">
+                  <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+                </a>
+            </div>
+          <div class="item-2">
+            <div class="card">
+            <!-- freelancer profile 2 -->
+            <div class="items-profile">
+              <a href="../html/profile/profile.html">
+                <img src="../asset/homepage-asset/masboy.png" alt="maskun" class="fp-freelance">
+                <p class="freelancer-name">Mas Boy</p>
+              </div>  
             </a>
-          </div>
-          <!-- Freelance project 1 -->
-            <a href="#"> 
-              <img src="../asset/homepage-asset/penyanyi-nikahan.png" alt="wedding photo" class="img-freelance">
-            </a>
-            <p class="title-project">Wedding Photography</p>
-            <a href="#">
-              <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
-            </a>
-            <a href="#">
-              <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
-            </a>
-          </div>
-        <div class="item">
-          <div class="card">
-          <!-- freelancer profile 2 -->
-          <div class="items-profile">
-            <a href="../html/profile/profile.html">
-              <img src="../asset/homepage-asset/masboy.png" alt="maskun" class="fp-freelance">
-              <p class="freelancer-name">Mas Boy</p>
-            </div>  
-          </a>
-            <a href="#">
-              <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
-            </a>
-          </div>
-          <!-- Freelance project 2 -->
-            <a href="#"> 
-              <img src="../asset/homepage-asset/year-book-design.png" alt="yb-desgin" class="img-freelance">
-            </a>
-            <p class="title-project">Wedding Photography</p>
-            <a href="#">
-              <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
-            </a>
-            <a href="#">
-              <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
-            </a>
-          </div>
-        <div class="item">
-          <div class="card">
-          <!-- freelancer profile 3-->
-          <div class="items-profile">
-            <a href="../html/profile/profile.html">
-              <img src="../asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
-              <p class="freelancer-name">Mas Kun</p>
-            </div>  
-          </a>
-          <a href="#">
-              <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
-            </a>
-          </div>
-          <!-- Freelance project 3-->
-            <a href="#"> 
-              <img src="../asset/homepage-asset/street-photo.png" alt="street-photo" class="img-freelance">
-            </a>
-            <p class="title-project" style="margin-left: -170px;">Street Photography</p>
-            <a href="#">
-              <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+              <a href="#">
+                <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+              </a>
+            </div>
+            <!-- Freelance project 2 -->
+              <a href="#"> 
+                <img src="../asset/homepage-asset/year-book-design.png" alt="yb-desgin" class="img-freelance">
+              </a>
+              <p class="title-project-2">Wedding Photography</p>
+              <a href="#">
+                <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+              </a>
+              <a href="#">
+                <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+              </a>
+            </div>
+          <div class="item-2">
+            <div class="card">
+            <!-- freelancer profile 3-->
+            <div class="items-profile">
+              <a href="../html/profile/profile.html">
+                <img src="../asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
+                <p class="freelancer-name">Mas Kun</p>
+              </div>  
             </a>
             <a href="#">
-              <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+                <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+              </a>
+            </div>
+            <!-- Freelance project 3-->
+              <a href="#"> 
+                <img src="../asset/homepage-asset/street-photo.png" alt="street-photo" class="img-freelance">
+              </a>
+              <p class="title-project-3">Street Photography</p>
+              <a href="#">
+                <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+              </a>
+              <a href="#">
+                <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+              </a>
+            </div>
+            <div class="item-2">
+            <div class="card">
+            <!-- freelancer profile 4-->
+            <div class="items-profile">
+              <a href="../html/profile/profile.html">
+                <img src="../asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
+                <p class="freelancer-name">Mas Kun</p>
+              </div>  
             </a>
-          </div>
-           <div class="item">
-          <div class="card">
-          <!-- freelancer profile 4-->
-          <div class="items-profile">
-            <a href="../html/profile/profile.html">
-              <img src="../asset/homepage-asset/maskun.png" alt="maskun" class="fp-freelance">
-              <p class="freelancer-name">Mas Kun</p>
-            </div>  
-          </a>
-          <a href="#">
-              <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
-            </a>
-          </div>
-          <!-- Freelance project 4-->
-            <a href="#"> 
-              <img src="../asset/homepage-asset/model-photo.png" alt="" class="img-freelance">
-            </a>
-            <p class="title-project" style="margin-left: -170px;">Model Photography</p>
             <a href="#">
-              <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
-            </a>
-            <a href="#">
-              <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
-            </a>
+                <img src="../asset/homepage-asset/chevron-right.png" alt="panah-kanan" class="to-project">
+              </a>
+            </div>
+            <!-- Freelance project 4-->
+              <a href="#"> 
+                <img src="../asset/homepage-asset/model-photo.png" alt="" class="img-freelance">
+              </a>
+              <p class="title-project-4">Model Photography</p>
+              <a href="#">
+                <img src="../asset/homepage-asset/more-icon.png" alt="more-icon" class="more">
+              </a>
+              <a href="#">
+                <img src="../asset/homepage-asset/bookmark.png" alt="bookmark-icon" class="bookmark">
+              </a>
+            </div>
           </div>
           
       </section>
@@ -277,42 +280,73 @@
     <!-- End of article -->
 
     <!-- Footer -->
-    <!-- <footer class="footer"> -->
-      <!-- bagian kiri -->
-      <!-- <div class="kiri">
-        <a href=""><p>Categories</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
-      </div> -->
-    <!-- tengah kiri -->
-      <!-- <div class="tengah-kiri">
-        <a href=""><p>About</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
-      </div> -->
+    <footer class="footer">
+      <table class="table-container">
+        <tr>
+          <td> <!-- bagian kiri -->
+            <div class="kiri">
+              <a href=""><p>Categories</p></a>
+              <a href=""><p>Dummy 1</p></a>
+              <a href=""><p>Dummy 2</p></a>
+              <a href=""><p>Dummy 3</p></a>
+              <a href=""><p>Dummy 4</p></a>
+          </div>
+          </td>
 
-      <!-- tengah kanan -->
-      <!-- <div class="tengah-kanan">
-        <a href=""><p>Support</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
-      </div> -->
-    <!-- kanan  -->
-        <!-- <div class="kanan">
-        <a href=""><p>Community</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
+          <td> <!-- tengah kiri -->
+            <div class="tengah-kiri">
+              <a href=""><p>About</p></a>
+              <a href=""><p>Dummy 1</p></a>
+              <a href=""><p>Dummy 2</p></a>
+              <a href=""><p>Dummy 3</p></a>
+              <a href=""><p>Dummy 4</p></a>
+            </div>
+          </td>
+
+          <td>
+            <div class="tengah-kanan"> <!-- tengah kanan -->
+            <a href=""><p>Support</p></a>
+            <a href=""><p>Dummy 1</p></a>
+            <a href=""><p>Dummy 2</p></a>
+            <a href=""><p>Dummy 3</p></a>
+            <a href=""><p>Dummy 4</p></a>
+            </div>
+          </td>
+          
+          <td> <!-- kanan  -->
+            <div class="kanan">
+              <a href=""><p>Community</p></a>
+              <a href=""><p>Dummy 1</p></a>
+              <a href=""><p>Dummy 2</p></a>
+              <a href=""><p>Dummy 3</p></a>
+              <a href=""><p>Dummy 4</p></a>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="copyright-etc">
+        <a class="footer-survilance" href="#">
+                    <img
+                    src="../asset/JUSTNAME.png"
+                    alt="logo"
+                    height="83px"   
+                    width="280px" 
+                    id="logo"
+                    />
+        </a>
+          <p class="cpy-rgt">Copyright © 2023, Survilance</p>
+          <p class="ToS">Privacy Policy & Terms of Service</p>
+
+          <p class="social-media">Our Social Media</p>
+          <div class="sosmed">
+            <a href=""><img class="img-sosmed" src="../asset/insta-white.png" alt=""></a>
+            <a href=""><img class="img-sosmed" src="../asset/gmail-white.png" alt=""style="margin-right: 20px;"></a>
+            <a href=""><img class="img-sosmed" src="../asset/twitter-white.png" alt=""style="margin-right: 20px;"></a>
+            <a href=""><img class="img-sosmed" src="../asset/facebook-white.png" alt=""style="margin-right: 20px;"></a>
+            <a href=""><img class="img-sosmed" src="../asset/linkedin-white.png" alt=""style="margin-right: 20px;"></a>
+          </div>
       </div>
-    </footer> -->
-    <!-- End of footer -->
+    </footer> <!-- End of footer -->
     
 
     <!-- JS Section -->
@@ -332,68 +366,60 @@
     <!-- Owl Carousel.js Section 1 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      $(document).ready(function(){
-  $(".owl-one").owlCarousel();
-});
-$('.owl-one').owlCarousel({
-    loop:true,
+    $(document).ready(function(){
+  var owl = $('.owl-one');
+  owl.owlCarousel({
+    loop:false,
     margin:10,
-    nav:true,
+    nav:false,
     responsive:{
         0:{
             items:3
         },
         600:{
-            items:4
+            items:5
         },
         1000:{
             items:7
         }
     }
-})
+  });
+  
+  // Custom Button
+  $('.customNextBtn').click(function() {
+    owl.trigger('next.owl.carousel');
+  });
+  $('.customPreviousBtn').click(function() {
+    owl.trigger('prev.owl.carousel');
+  });
+  
+});
     </script>
   <!-- Owl Carousel.js - Section 2 -->
     <script>
       $(document).ready(function(){
-  $(".owl-two").owlCarousel();
-});
-$('.owl-two').owlCarousel({
+  var owl = $('.owl-two');
+  owl.owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     responsive:{
         0:{
-            items:3
+            items:2
         },
         600:{
-            items:4
+            items:3
         },
         1000:{
             items:4
         }
     }
-})
+    });
+  });
     </script>
 
-    <!-- Next and prev button -->
-      <script>
-    $('.owl-carousel').owlCarousel({
-      margin: 15,
-      nav: true,
-      navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
-      responsive: {
-        0: {
-          items: 3
-        },
-        600: {
-          items: 4
-        },
-        1000: {
-          items: 7
-        }
-      }
-    });
-  </script>
+
+  
   </body>
   
 </html>

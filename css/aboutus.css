@@ -1,12 +1,13 @@
 .navbar-brand{
-        font-size: 44px !important;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 78px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-left: 40px;
-        color:#2C1E30 !important;
+    margin-top: 25px;
+    font-size: 44px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+    color:#2C1E30 !important;
 }
 
 body {
