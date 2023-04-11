@@ -23,27 +23,29 @@
           <a class="navbar-brand" href="../html/homepage.html">
             <img src="../asset/JUSTNAME.png" alt="logo" id="logo"/>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <form class="d-flex justify-content-center" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           </form>
+            
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="message" href="../html/chat/chatpage.html"><i class="fa-solid fa-envelope fa-2x" style="color: #f4f4f4;"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="bag" href="../html/checkout/checkout.html"><i class="fa-solid fa-bag-shopping fa-2x" style="color: #f4f4f4;"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="user" href="../html/profile/profile.html"><i class="fa-solid fa-user fa-2x" style="color: #f4f4f4;"></i></a>
+                <a class="message" href="../html/chat/chatpage.html"><i class="fa-solid fa-envelope fa-2xl" style="color: #f4f4f4;"></i></a>
+                <a class="bag" href="../html/checkout/checkout.html"><i class="fa-solid fa-bag-shopping fa-2xl" style="color: #f4f4f4;"></i></a>
+                <div class="dropdown">
+                <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-user fa-2xl" style="color: #f4f4f4;"></i>
+                </a>
+                  
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../html/profile/profile.html">Profile</a></li>
+                  <li><a class="dropdown-item" href="../html/landingpage.html">Logout</a></li>
+                </ul>
+              </div>
+              
               </li>
             </ul>
             
-          </div>
-        </div>
+          
       </nav>
       </header>
     <hr style="border: 1px solid #93DEFF;">

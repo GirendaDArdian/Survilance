@@ -11,25 +11,51 @@ body{
     display: block;
     height : 63px;
     width : 180px;
-
 }
-input[type=search] {
+@media only screen and (max-width: 768px){
+   input[type=search] {
     box-sizing: border-box;
     background-color: #1A1A1A;
     background-image: url('/asset/Search.png');
     background-position: 10px; 
     background-repeat: no-repeat;
-    padding: 12px 40px 12px 40px;
-    width: 200px;
+    padding: 12px 15px 12px 40px;
+    width: 20px;
     border: 2px solid white;
     border-radius: 30px;
     color: white;
     height: 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 40px !important;
+    
+} 
+    input[type=search]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #616571;
+    opacity: 1; /* Firefox */
+    }
+
+    input[type=search]:focus { 
+    width: 200px;
+    display: block !important;
+    }
+    .navbar-nav{
+    margin-top: -30px !important;
+}
 }
 
-input[type=search]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #616571;
-  opacity: 1; /* Firefox */
+.fa-envelope {
+    font-size: 25px !important;
+    /* margin-top: 100px !important; */
+    margin-left: 0px !important;
+}
+
+.fa-bag-shopping  {
+    font-size: 25px !important;
+}
+.fa-user {
+    font-size: 25px !important;
+    margin-top: 0px !important;
 }
 
 nav{
@@ -37,13 +63,9 @@ nav{
 }
 
 header{
-    margin-top: -20px;
+    margin-top: -30px !important;
 }
-.form-control.me-2{
-    margin-left: 40px !important;
-    margin-top: 40px !important;
-    margin-right: 90px !important;
-}
+
 .navbar-toggler {
     margin-top: 30px;
     background-color: #93DEFF !important;
@@ -51,9 +73,13 @@ header{
 
 .nav-item{
     margin-top: 40px;
-    margin-left: 30px;
-
+    margin-left: 120px;
+    /* display: inline; */
 }
+.dropdown{
+        margin-left: 180px;
+        margin-top: -30px;
+    }
 .fa-bag-shopping:hover{
     color:#93DEFF !important;
 }
@@ -81,7 +107,7 @@ header{
     margin: 20px;
     margin-top: 5px;
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 30px !important;
     padding-right: 40px;
     border: 1px solid #93DEFF;
 
@@ -96,18 +122,23 @@ header{
     position: relative;
     margin-left: 5px;
 }
+hr{
+    margin-top: -5px;
+}
 .label{
     color: #F7F7F7;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
     margin-left: 20px;
+    margin-top: -5px;
 }
 
 .label-2{
     color: #F7F7F7;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
+    margin-top: -5px;
 }
 .card{
     border: 0px none;
@@ -243,22 +274,104 @@ header{
         font-size: 16px;
         margin-left: 40px;
     }
-    .kiri{
-
-    }
-    .tengah-kiri{
-
-    }
-    .tengah-kanan{
-
-    }
-    .kanan{
-
-    }
+.table-container{
+    margin-top: 200px;
+}
+.kiri p{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 13px;
+    margin-left: 30px;
 
 
+}
+.tengah-kiri p{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 13px;
+    margin-left: 30px;
 
-/* Media Dekstop */
+}
+.tengah-kanan p{
+    text-decoration: none;
+    color: #F7F7F7 !important;
+    font-size: 13px;
+    margin-left: 30px;
+
+    
+}
+.kanan p{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 13px;
+    margin-left: 30px;
+
+}
+
+.copyright-etc{
+    margin-bottom: 50px;
+    margin-left: -30px;
+}
+.footer-survilance{
+    padding-top: 20px;
+    font-size: 44px !important;
+    font-style: normal;
+    color: #f7f7f7 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cpy-rgt{
+    color:#f7f7f7 !important;
+    font-size: 12px;
+    margin-top: -10px;
+    font-family: 'Inter',
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToS{
+    color:#f7f7f7 !important;
+    font-size: 12px;
+    margin-top: -10px;
+    font-family: 'Inter',
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media{
+    color:#f7f7f7 !important;
+    font-size: 16px;
+    /* margin-left: 40px; */
+    margin-top: 8px;
+    font-family: 'Inter',
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sosmed{
+    margin-left: 60px;
+}
+.img-sosmed {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+
+/* ================================= Media Dekstop ========================== */
+
+
+
+
 
 @media only screen and (min-width: 768px) {
     /* Import font */
@@ -287,8 +400,12 @@ header{
         border-radius: 30px;
         color: white;
         height: 50px;
+        
     }
 
+    hr{
+        margin-top: 5px;
+    }
     input[type=search]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #616571;
     opacity: 1; /* Firefox */
@@ -299,28 +416,55 @@ header{
     }
 
     header{
-        margin-top: -20px;
+    margin-top: -30px !important;
     }
     .form-control.me-2{
-        margin-left: 400px;
-        margin-top: -70px;
+    margin-left: 40px !important;
+    margin-top: 40px !important;
+    margin-right: 90px !important;
     }
 
+    .nav-item{
+    margin-top: 40px;
+    margin-left: 0px;
+    word-spacing: 30px;
+
+}
     .icon{
         margin-left: 100px;
         margin-top: -60px;
 
+    }
+    .fa-envelope{
+        font-size: 32px !important;
+    }
+    .fa-bag-shopping{
+        font-size: 32px !important;
+    }
+    .fa-user{
+        font-size: 32px !important;
     }
     .fa-bag-shopping:hover{
         color:#93DEFF !important;
     }
     .bag{
         margin-left: 70px;
+        
     }
     .fa-envelope:hover{
         color: #93DEFF !important;
     }
+    .dropdown{
+        margin-left: 250px;
+        margin-top: -30px;
+    }
 
+    .dropdown-menu{
+        background-color: #1A1A1A;
+    }
+    .dropdown-item{
+        color: #93DEFF;
+    }
     .user{
         margin-left: 70px;
     }
@@ -333,7 +477,7 @@ header{
 
     .carousel-section-1{
         margin: 20px;
-        margin-top: 5px;
+        margin-top: 5px !important;
         padding-left: 40px;
         padding-top: 20px;
         padding-right: 40px;
@@ -348,7 +492,9 @@ header{
         width: 1300px;
     }
 
-
+    .carousel-wrapper{
+        margin-top: -5px;
+    }
     .nav-button{
         position: relative;
         margin-left: 5px;
