@@ -42,6 +42,103 @@ body{
     .navbar-nav{
     margin-top: -30px !important;
 }
+/* Footer */
+.footer{
+        text-decoration: none;
+        color: #F7F7F7;
+        font-size: 16px;
+        margin-left: 40px;
+    }
+.table-container{
+    margin-top: 200px;
+}
+.kiri p{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 13px;
+    margin-left: 30px;
+
+
+}
+.tengah-kiri p{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 13px;
+    margin-left: 30px;
+
+}
+.tengah-kanan p{
+    text-decoration: none;
+    color: #F7F7F7 !important;
+    font-size: 13px;
+    margin-left: 30px;
+
+    
+}
+.kanan p{
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 13px;
+    margin-left: 30px;
+
+}
+
+.copyright-etc{
+    margin-bottom: 50px;
+    margin-left: -30px;
+}
+.footer-survilance{
+    padding-top: 20px;
+    font-size: 44px !important;
+    font-style: normal;
+    color: #f7f7f7 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cpy-rgt{
+    color:#f7f7f7 !important;
+    font-size: 12px;
+    margin-top: -10px;
+    font-family: 'Inter',
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToS{
+    color:#f7f7f7 !important;
+    font-size: 12px;
+    margin-top: -10px;
+    font-family: 'Inter',
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media{
+    color:#f7f7f7 !important;
+    font-size: 16px;
+    /* margin-left: 40px; */
+    margin-top: 8px;
+    font-family: 'Inter',
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sosmed{
+    margin-left: 60px;
+}
+.img-sosmed {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
 }
 
 .fa-envelope {
@@ -267,103 +364,7 @@ hr{
 
 
 
-/* Footer */
-.footer{
-        text-decoration: none;
-        color: #F7F7F7;
-        font-size: 16px;
-        margin-left: 40px;
-    }
-.table-container{
-    margin-top: 200px;
-}
-.kiri p{
-    text-decoration: none;
-    color: #F7F7F7;
-    font-size: 13px;
-    margin-left: 30px;
 
-
-}
-.tengah-kiri p{
-    text-decoration: none;
-    color: #F7F7F7;
-    font-size: 13px;
-    margin-left: 30px;
-
-}
-.tengah-kanan p{
-    text-decoration: none;
-    color: #F7F7F7 !important;
-    font-size: 13px;
-    margin-left: 30px;
-
-    
-}
-.kanan p{
-    text-decoration: none;
-    color: #F7F7F7;
-    font-size: 13px;
-    margin-left: 30px;
-
-}
-
-.copyright-etc{
-    margin-bottom: 50px;
-    margin-left: -30px;
-}
-.footer-survilance{
-    padding-top: 20px;
-    font-size: 44px !important;
-    font-style: normal;
-    color: #f7f7f7 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cpy-rgt{
-    color:#f7f7f7 !important;
-    font-size: 12px;
-    margin-top: -10px;
-    font-family: 'Inter',
-    sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ToS{
-    color:#f7f7f7 !important;
-    font-size: 12px;
-    margin-top: -10px;
-    font-family: 'Inter',
-    sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-media{
-    color:#f7f7f7 !important;
-    font-size: 16px;
-    /* margin-left: 40px; */
-    margin-top: 8px;
-    font-family: 'Inter',
-    sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.sosmed{
-    margin-left: 60px;
-}
-.img-sosmed {
-    margin-left: 10px;
-    margin-right: 20px;
-    font-size: 20px;
-}
 
 
 
@@ -623,6 +624,12 @@ hr{
 .table-container{
     margin-top: 400px;
 }
+.footer{
+        text-decoration: none;
+        color: #F7F7F7;
+        font-size: 16px;
+        margin-left: 20px;
+    }
 .kiri p{
     text-decoration: none;
     color: #F7F7F7;
