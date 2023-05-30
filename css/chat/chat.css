@@ -1,0 +1,23 @@
+.menu li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.userprofile{
+    height: 100px;
+    width: 300px;
+    border: solid 1px #93DEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#fa-user-2 {
+    font-size: 25px !important;
+    /* margin-top: -20x !important */
+    
+}

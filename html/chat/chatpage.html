@@ -11,87 +11,64 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/chat/chat.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Message</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <nav>
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="/html/homepage.html">
-            <img
-            src="/asset/JUSTNAME.png"
-            alt="logo"
-            height="83px" 
-            width="280px" 
-            id="logo"
-          />
-        </a>
-        <form class="d-flex justify-content-center" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-            />
-            <div class="icon">
-              <h5>
-                <a class="message" href="/html/chat/chatpage.html"><i class="fa-solid fa-envelope fa-lg" style="color: #93DEFF;"></i></a>
-                <a class="bag" href="/html/checkout/checkout.html"><i class="fa-solid fa-bag-shopping fa-lg" style="color: #f4f4f4;"></i></a>
-                <a class="user" href="/html/profile/profile.html"><i class="fa-solid fa-user fa-lg" style="color: #f4f4f4;"></i></a>
-              </h5>
-            </div>
+            <img src="/asset/JUSTNAME.png" alt="logo" id="logo"/>
+          </a>
+            <form class="d-flex justify-content-center" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           </form>
-        </div>
-      </div>
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="message" href="/html/chat/chatpage.html"><i class="fa-solid fa-envelope fa-2xl" style="color: #93DEFF;"></i></a>
+                <a class="bag" href="/html/checkout/checkout.html"><i class="fa-solid fa-bag-shopping fa-2xl" style="color: #f4f4f4;"></i></a>
+                <div class="dropdown">
+                <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-user fa-2xl" style="color: #f4f4f4;"></i>
+                </a>
+                  
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/html/profile/profile.html">Profile</a></li>
+                  <li><a class="dropdown-item" href="/html/landingpage.html">Logout</a></li>
+                </ul>
+              </div>
+              
+              </li>
+            </ul>
+            
+          
       </nav>
       </header>
     <hr style="border: 1px solid #93DEFF;">
 
-    <article>
-        <section>
-            
-        </section>
-    </article>
-    <!-- Footer -->
-    <!-- <footer class="footer"> -->
-      <!-- bagian kiri -->
-      <!-- <div class="kiri">
-        <a href=""><p>Categories</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
-      </div> -->
-    <!-- tengah kiri -->
-      <!-- <div class="tengah-kiri">
-        <a href=""><p>About</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
-      </div> -->
-
-      <!-- tengah kanan -->
-      <!-- <div class="tengah-kanan">
-        <a href=""><p>Support</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
-      </div> -->
-    <!-- kanan  -->
-        <!-- <div class="kanan">
-        <a href=""><p>Community</p></a>
-        <a href=""><p>Dummy 1</p></a>
-        <a href=""><p>Dummy 2</p></a>
-        <a href=""><p>Dummy 3</p></a>
-        <a href=""><p>Dummy 4</p></a>
+  
+    <!-- Start Profile Page -->
+      <!-- User Name -->
+      <div class="userprofile">
+        <i id="fa-user-2" class="fa-solid fa-user fa-2xs" style="color: #f4f4f4;"></i>
+        <p><a href="#">Nama Profile</a></p>
       </div>
-    </footer> -->
-    <!-- End of footer -->
-    
+
+      <div class="menu-inbox">
+        <h4>Inbox</h4>
+        <ul class="menu">
+          <li><a href="#">Chat</a></li>
+          <li><a href="#">Review</a></li>
+          <li><a href="#">Revision</a></li>
+        </ul>
+      </div>
+
+
 
     <!-- JS Section -->
 
@@ -106,6 +83,9 @@
     
     <!-- JQuery.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Owl Carousel.js Section 1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
   
 </html>
