@@ -1,0 +1,52 @@
+.menu li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.userprofile{
+    height: 100px;
+    width: 300px;
+    border: solid 1px #93DEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: #f4f4f4 !important;
+    font-size: 25px;
+}
+
+#fa-user-2 {
+    font-size: 25px !important;
+    margin-right: 10px !important;
+
+}
+
+#user{
+    color: #f4f4f4 !important;
+
+}
+
+.menu-inbox{
+    border: solid 1px #93DEFF;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#h5-inbox{
+    color: #93DEFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu li a{
+    color: #f4f4f4 !important;
+}
+
+.menu li #review{
+    color: #93DEFF !important;
+}
